@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className="container content">
+      <main>
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/login" element={<LoginScreen />} />
