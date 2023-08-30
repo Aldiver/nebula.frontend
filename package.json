@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
     "@reduxjs/toolkit": "^1.9.5",
     "nprogress": "^0.2.0",
     "react": "^18.2.0",
