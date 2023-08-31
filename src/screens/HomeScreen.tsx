@@ -108,17 +108,6 @@ const HomeScreen: React.FC = () => {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
           <div>
-            <div
-              tabIndex={0}
-              className="collapse bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content mb-6"
-            >
-              <div className="collapse-title flex">
-                <h2 className="text-2xl font-bold"> Welcome to my Portfolio</h2>
-              </div>
-              <div className="collapse-content">
-                <p>Kyaaaaah!!!</p>
-              </div>
-            </div>
             <h1 className="text-5xl font-bold">Hi, I'm Aldiver Alcoriza!</h1>
             <p className="py-6">Engineer | Web Developer | Tech Enthusiast</p>
             <button className="btn btn-secondary btn-outline btn-xs">
@@ -126,7 +115,11 @@ const HomeScreen: React.FC = () => {
             </button>
           </div>
           {/* <img src={heroImage} className="max-w-sm rounded-lg shadow-2xl " /> */}
-          <Lottie animationData={animationData} loop={true} className="w-4/5" />
+          <Lottie
+            animationData={animationData}
+            loop={true}
+            className="w-full lg:w-2/4"
+          />
         </div>
       </div>
     </div>
